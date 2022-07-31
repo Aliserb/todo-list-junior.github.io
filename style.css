@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add_task_wrap {
+    width: 100%;
+    background-color: red;
+    padding: 50px;
+    text-align: center;
+}
+
+.add_task_wrap h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.add_task input {
+    padding: 10px;
+    width: 70%;
+}
+
+.add_task_button {
+    padding: 10px;
+    width: 20%;
+}
+
+.task_list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+    transition: 0.3s;
+}
+
+.task_list li:hover {
+    background: #afa8a8;
+    color: #fff;
+}
+
+.task_list li .task_value.checked {
+    background: #808080;
+    color: #fff;
+}
+
+.task_list li .task_value.checked {
+    text-decoration: line-through;
+}
+
+.task_list li.checked .remove {
+    color: #fff;
+}
+
+.task_value {
+    padding: 10px 20px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+/*.task_list li {*/
+/*    padding: 10px 20px;*/
+/*    transition: 0.3s;*/
+/*    position: relative;*/
+/*}*/
+
+/*.task_list li:hover {*/
+/*    background: #afa8a8;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.task_list li.checked {*/
+/*    background: #808080;*/
+/*    color: #fff;*/
+/*    text-decoration: line-through;*/
+/*}*/
+
+/*.task_list .close {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    padding: 10px 16px;*/
+/*    transition: 0.3s;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.task_list .close:before {*/
+/*    content: '\u00D7';*/
+
+/*}*/
+
+.task_list .remove {
+    width: 40px;
+    height: 20px;
+    text-transform: uppercase;
+    color: red;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task_list .remove:hover {
+    color: #fff;
+}
+
+
+

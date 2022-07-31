@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task manager</title>
+
+    <!-- connecting styles  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="add_task_wrap">
+        <h1>
+            Add new task!
+        </h1>
+
+        <form class="add_task">
+            <input id="add_task" type="text" placeholder="add task">
+            <button type="button" class="add_task_button" onclick="addTask()">add</button>
+        </form>
+    </div>
+
+    <div class="task_list">
+        <ul>
+            <li>
+                <span class="task_value">Task1</span>
+                <div class="remove">x</div>
+            </li>
+
+            <li>
+                <span class="task_value">Task2</span>
+                <div class="remove">x</div>
+            </li>
+            
+            <li>
+                <span class="task_value">Task3</span>
+                <div class="remove">x</div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
